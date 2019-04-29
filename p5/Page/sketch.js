@@ -63,7 +63,7 @@ function draw() {
     }
     //function to make the ghost bounce
     function bounceGhost(){
-        angle += 0.08;
+        angle += 0.15;
         bounce = sin(angle)*8;
     }
    //function for the text "boo"
